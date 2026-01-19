@@ -4,12 +4,16 @@
   "description": "Assessment for interview invitation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open --browser chrome",
+    "cy:run": "cypress run --browser chrome"
   },
   "author": "Lanre Ikuesan",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^15.2.0",
     "cypress-xpath": "^2.0.1"
+    
   }
+
 }
